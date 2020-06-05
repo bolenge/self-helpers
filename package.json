@@ -1,0 +1,22 @@
+{
+  "name": "self-helpers",
+  "version": "0.0.1",
+  "description": "Package Javascript contenant un bon nombre des fonctions ou des logiques de code que nous utilisons régulièrement qui sont mis en fonctions",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bolenge/self-helpers.git"
+  },
+  "keywords": [
+    "helper",
+    "helpers",
+    "self-helpers",
+    "self",
+    "function"
+  ],
+  "author": "Don de Dieu Bolenge",
+  "license": "MIT"
+}
