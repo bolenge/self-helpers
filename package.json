@@ -1,6 +1,6 @@
 {
   "name": "self-helpers",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Package Javascript contenant un bon nombre des fonctions ou des logiques de code que nous utilisons régulièrement qui sont mis en fonctions",
   "main": "index.js",
   "scripts": {

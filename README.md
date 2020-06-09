@@ -58,3 +58,17 @@ const { formatDateWithSlash } = require('self-helpers');
 
 console.log(formatDateWithSlash(new Date())); // d-m-y
 ```
+
+#### objectEmpty(object)
+
+Permet de vérifier si l'objet passé en paramètre est vide, ne contient aucun élément
+
+* `object` : L'objet à vérifier
+
+Exemple
+```js
+const helpers = require('self-helpers');
+
+console.log(helpers.objectEmpty({})); // true
+console.log(helpers.objectEmpty({name: 'Sekikande'})); // false
+```

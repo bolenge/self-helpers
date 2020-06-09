@@ -46,3 +46,13 @@ exports.rand = (min, max, integer = true) => {
         return Math.floor(Math.random() * (max - min + 1) + min);
     }
 }
+
+/**
+ * Vérifie si un object est vide
+ * @param {Object} object L'objet à tester
+ * @return {Boolean}
+ */
+exports.objectEmpty = (object) => {
+
+    return Object.keys(object).length <= 0;
+}
