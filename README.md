@@ -72,3 +72,14 @@ const helpers = require('self-helpers');
 console.log(helpers.objectEmpty({})); // true
 console.log(helpers.objectEmpty({name: 'Sekikande'})); // false
 ```
+
+#### convertDateToSeconds(date)
+
+Converti une date en seconds
+
+* `date` : La date à convertir
+
+Exemple
+```js
+console.log(helpers.convertDateToSeconds(new Date()));
+```

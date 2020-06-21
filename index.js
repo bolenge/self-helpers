@@ -56,3 +56,12 @@ exports.objectEmpty = (object) => {
 
     return Object.keys(object).length <= 0;
 }
+
+/**
+ * Converti une date en seconds
+ * @param {String} date La date à convertir
+ * @returns {Number} seconds
+ */
+exports.convertDateToSeconds = (date) => {
+    return new Date(date) / 1000 | 0;
+}
